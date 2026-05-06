@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Modelio ID",
   "text.multilangtts.config.management": "Konfigūracijos valdymas",
   "text.multilangtts.config.reset_button": "Atstatyti į numatytuosius nustatymus",
-  "gui.back": "Atgal"
+  "gui.back": "Atgal",
+  "key.multilangtts.skip_message": "Praleisti dabartinį TTS pranešimą"
 }

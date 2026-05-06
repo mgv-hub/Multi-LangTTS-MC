@@ -6,6 +6,10 @@
  *
  * NOTE:
  * This project mixes Java (Fabric mod) + Node.js tooling for localization.
+ *
+ * NOTE:
+ * Automated translations are not always accurate and may contain errors or unnatural phrasing.
+ * However, they are used as a fallback solution and are better than having missing translations.
  */
 
 const fs = require('fs').promises;

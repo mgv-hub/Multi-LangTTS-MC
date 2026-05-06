@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "モデルID",
   "text.multilangtts.config.management": "構成管理",
   "text.multilangtts.config.reset_button": "デフォルトにリセット",
-  "gui.back": "戻る"
+  "gui.back": "戻る",
+  "key.multilangtts.skip_message": "現在の TTS メッセージをスキップする"
 }

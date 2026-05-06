@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "ID model",
   "text.multilangtts.config.management": "Managementul configurației",
   "text.multilangtts.config.reset_button": "Resetați la valorile implicite",
-  "gui.back": "Spate"
+  "gui.back": "Spate",
+  "key.multilangtts.skip_message": "Omite mesajul TTS curent"
 }

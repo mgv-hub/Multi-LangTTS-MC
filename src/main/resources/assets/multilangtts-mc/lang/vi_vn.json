@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Mã mẫu",
   "text.multilangtts.config.management": "Quản lý cấu hình",
   "text.multilangtts.config.reset_button": "Đặt lại về mặc định",
-  "gui.back": "Mặt sau"
+  "gui.back": "Mặt sau",
+  "key.multilangtts.skip_message": "Bỏ qua tin nhắn TTS hiện tại"
 }

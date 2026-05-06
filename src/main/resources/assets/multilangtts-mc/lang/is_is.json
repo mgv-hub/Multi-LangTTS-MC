@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Fyrirmynd auðkenni",
   "text.multilangtts.config.management": "Stillingarstjórnun",
   "text.multilangtts.config.reset_button": "Endurstilla í sjálfgefnar stillingar",
-  "gui.back": "Til baka"
+  "gui.back": "Til baka",
+  "key.multilangtts.skip_message": "Slepptu núverandi TTS skilaboðum"
 }

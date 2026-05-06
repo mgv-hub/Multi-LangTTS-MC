@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Modeļa ID",
   "text.multilangtts.config.management": "Konfigurācijas pārvaldība",
   "text.multilangtts.config.reset_button": "Atiestatīt uz noklusējuma iestatījumiem",
-  "gui.back": "Atpakaļ"
+  "gui.back": "Atpakaļ",
+  "key.multilangtts.skip_message": "Izlaist pašreizējo TTS ziņojumu"
 }

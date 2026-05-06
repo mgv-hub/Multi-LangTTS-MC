@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Model Kimliği",
   "text.multilangtts.config.management": "Konfigürasyon Yönetimi",
   "text.multilangtts.config.reset_button": "Varsayılanlara Sıfırla",
-  "gui.back": "Geri"
+  "gui.back": "Geri",
+  "key.multilangtts.skip_message": "Mevcut TTS Mesajını Atla"
 }

@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Model ID",
   "text.multilangtts.config.management": "Konfigurationsstyring",
   "text.multilangtts.config.reset_button": "Nulstil til standarder",
-  "gui.back": "Tilbage"
+  "gui.back": "Tilbage",
+  "key.multilangtts.skip_message": "Spring over aktuel TTS-meddelelse"
 }

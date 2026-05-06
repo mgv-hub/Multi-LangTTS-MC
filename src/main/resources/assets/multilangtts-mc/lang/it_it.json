@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "ID modello",
   "text.multilangtts.config.management": "Gestione della configurazione",
   "text.multilangtts.config.reset_button": "Ripristina le impostazioni predefinite",
-  "gui.back": "Indietro"
+  "gui.back": "Indietro",
+  "key.multilangtts.skip_message": "Salta il messaggio TTS corrente"
 }

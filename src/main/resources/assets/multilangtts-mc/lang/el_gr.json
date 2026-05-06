@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Αναγνωριστικό μοντέλου",
   "text.multilangtts.config.management": "Διαχείριση διαμόρφωσης",
   "text.multilangtts.config.reset_button": "Επαναφορά στις προεπιλογές",
-  "gui.back": "Πίσω"
+  "gui.back": "Πίσω",
+  "key.multilangtts.skip_message": "Παράλειψη τρέχοντος μηνύματος TTS"
 }

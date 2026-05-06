@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "ID Múnla",
   "text.multilangtts.config.management": "Bainistíocht Cumraíochta",
   "text.multilangtts.config.reset_button": "Athshocraigh go Réamhshocruithe",
-  "gui.back": "Ar ais"
+  "gui.back": "Ar ais",
+  "key.multilangtts.skip_message": "Léim ar Theachtaireacht TTS Reatha"
 }

@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Mallin tunnus",
   "text.multilangtts.config.management": "Kokoonpanon hallinta",
   "text.multilangtts.config.reset_button": "Palauta oletusarvoihin",
-  "gui.back": "Takaisin"
+  "gui.back": "Takaisin",
+  "key.multilangtts.skip_message": "Ohita nykyinen TTS-viesti"
 }

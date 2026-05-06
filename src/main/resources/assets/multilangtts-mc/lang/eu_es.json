@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Ereduaren IDa",
   "text.multilangtts.config.management": "Konfigurazioaren kudeaketa",
   "text.multilangtts.config.reset_button": "Berrezarri lehenespenetara",
-  "gui.back": "Itzuli"
+  "gui.back": "Itzuli",
+  "key.multilangtts.skip_message": "Saltatu uneko TTS mezua"
 }

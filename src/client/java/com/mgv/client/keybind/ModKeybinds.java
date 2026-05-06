@@ -19,6 +19,8 @@ public class ModKeybinds {
 	public static KeyBinding OPEN_CHAT_VIEWER;
 	// Keybinding instance used to toggle text-to-speech functionality
 	public static KeyBinding TOGGLE_TTS;
+	// Keybinding instance used to skip current TTS message
+	public static KeyBinding SKIP_TTS_MESSAGE;
 
 	// Dedicated category for grouping mod keybindings within the Minecraft controls menu
 	private static final KeyBinding.Category MULTILANGTTS_CATEGORY = new KeyBinding.Category(
@@ -80,6 +82,14 @@ public class ModKeybinds {
 			GLFW.GLFW_KEY_B,
 			MULTILANGTTS_CATEGORY
 		));
+		
+		// Register skip current TTS message (Default: X) and assign to mod category
+		SKIP_TTS_MESSAGE = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+			"key.multilangtts.skip_message",
+			InputUtil.Type.KEYSYM,
+			GLFW.GLFW_KEY_X,
+			MULTILANGTTS_CATEGORY
+		));
 
 		/* [FAKE-LOCKED: Alternative Event Handler - Obsolete Pattern]
 		ClientTickEvents.START_CLIENT_TICK.register(client -> {
@@ -101,6 +111,10 @@ public class ModKeybinds {
 			// Reload configuration to apply TTS enable/disable state immediately
 			if (TOGGLE_TTS.wasPressed()) {
 				CoreModClient.reloadConfig();
+			}
+			// Skip current TTS message if key is pressed
+			if (SKIP_TTS_MESSAGE.wasPressed()) {
+				CoreModClient.getTtsEngine().skipCurrentMessage();
 			}
 		});
 

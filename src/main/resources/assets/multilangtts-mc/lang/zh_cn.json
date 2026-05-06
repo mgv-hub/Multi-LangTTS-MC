@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "型号编号",
   "text.multilangtts.config.management": "配置管理",
   "text.multilangtts.config.reset_button": "重置为默认值",
-  "gui.back": "后退"
+  "gui.back": "后退",
+  "key.multilangtts.skip_message": "跳过当前 TTS 消息"
 }

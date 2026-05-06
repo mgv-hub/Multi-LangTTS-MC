@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "ID Model",
   "text.multilangtts.config.management": "Manajemen Konfigurasi",
   "text.multilangtts.config.reset_button": "Atur Ulang ke Default",
-  "gui.back": "Kembali"
+  "gui.back": "Kembali",
+  "key.multilangtts.skip_message": "Lewati Pesan TTS Saat Ini"
 }

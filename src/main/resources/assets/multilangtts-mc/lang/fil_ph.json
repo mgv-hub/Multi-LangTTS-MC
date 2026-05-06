@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Model ID",
   "text.multilangtts.config.management": "Pamamahala ng Configuration",
   "text.multilangtts.config.reset_button": "I-reset sa Mga Default",
-  "gui.back": "Bumalik"
+  "gui.back": "Bumalik",
+  "key.multilangtts.skip_message": "Laktawan ang Kasalukuyang TTS Message"
 }

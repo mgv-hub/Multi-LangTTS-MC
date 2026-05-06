@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Mudell ID",
   "text.multilangtts.config.management": "Ġestjoni tal-Konfigurazzjoni",
   "text.multilangtts.config.reset_button": "Irrisettja għal Defaults",
-  "gui.back": "Lura"
+  "gui.back": "Lura",
+  "key.multilangtts.skip_message": "Aqbeż il-messaġġ TTS kurrenti"
 }

@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "شناسه مدل",
   "text.multilangtts.config.management": "مدیریت پیکربندی",
   "text.multilangtts.config.reset_button": "به حالت پیش فرض بازنشانی کنید",
-  "gui.back": "برگشت"
+  "gui.back": "برگشت",
+  "key.multilangtts.skip_message": "رد شدن از پیام فعلی TTS"
 }

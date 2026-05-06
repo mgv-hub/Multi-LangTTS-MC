@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "ID моделі",
   "text.multilangtts.config.management": "Управління конфігурацією",
   "text.multilangtts.config.reset_button": "Скинути до значень за замовчуванням",
-  "gui.back": "Назад"
+  "gui.back": "Назад",
+  "key.multilangtts.skip_message": "Пропустити поточне повідомлення TTS"
 }

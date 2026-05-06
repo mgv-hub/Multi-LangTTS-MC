@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "모델 ID",
   "text.multilangtts.config.management": "구성 관리",
   "text.multilangtts.config.reset_button": "기본값으로 재설정",
-  "gui.back": "뒤쪽에"
+  "gui.back": "뒤쪽에",
+  "key.multilangtts.skip_message": "현재 TTS 메시지 건너뛰기"
 }

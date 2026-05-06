@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Kitambulisho cha mfano",
   "text.multilangtts.config.management": "Usimamizi wa Usanidi",
   "text.multilangtts.config.reset_button": "Weka upya kwa Chaguomsingi",
-  "gui.back": "Nyuma"
+  "gui.back": "Nyuma",
+  "key.multilangtts.skip_message": "Ruka Ujumbe wa Sasa wa TTS"
 }

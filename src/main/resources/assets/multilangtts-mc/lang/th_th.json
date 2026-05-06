@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "รหัสรุ่น",
   "text.multilangtts.config.management": "การจัดการการกำหนดค่า",
   "text.multilangtts.config.reset_button": "รีเซ็ตเป็นค่าเริ่มต้น",
-  "gui.back": "กลับ"
+  "gui.back": "กลับ",
+  "key.multilangtts.skip_message": "ข้ามข้อความ TTS ปัจจุบัน"
 }

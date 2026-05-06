@@ -9,6 +9,7 @@
   "text.multilangtts.config.read_names": "Read Player Names",
   "key.multilangtts.toggle": "Toggle TTS",
   "key.multilangtts.open_chat_viewer": "Open Chat Log Viewer",
+  "key.multilangtts.skip_message": "Skip Current TTS Message",
   "category.multilangtts.keybinds": "Multi LangTTS MC",
   "key.category.multilangtts.keybinds": "Multi LangTTS MC",
   "key.category.multilangtts-mc.keybinds": "Multi LangTTS MC",

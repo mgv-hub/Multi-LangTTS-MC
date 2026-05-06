@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "ID Model",
   "text.multilangtts.config.management": "Rheolaeth Ffurfweddu",
   "text.multilangtts.config.reset_button": "Ailosod i'r Rhagosodiadau",
-  "gui.back": "Yn ol"
+  "gui.back": "Yn ol",
+  "key.multilangtts.skip_message": "Hepgor Neges TTS Cyfredol"
 }

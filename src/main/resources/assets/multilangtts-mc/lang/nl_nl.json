@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Model-ID",
   "text.multilangtts.config.management": "Configuratiebeheer",
   "text.multilangtts.config.reset_button": "Terugzetten naar standaardwaarden",
-  "gui.back": "Rug"
+  "gui.back": "Rug",
+  "key.multilangtts.skip_message": "Huidig ​​TTS-bericht overslaan"
 }

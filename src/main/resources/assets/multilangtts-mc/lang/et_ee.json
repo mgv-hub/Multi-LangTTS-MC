@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Mudeli ID",
   "text.multilangtts.config.management": "Konfiguratsioonihaldus",
   "text.multilangtts.config.reset_button": "Lähtestage vaikeseadetele",
-  "gui.back": "Tagasi"
+  "gui.back": "Tagasi",
+  "key.multilangtts.skip_message": "Jäta praegune TTS-sõnum vahele"
 }

@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "मॉडल आईडी",
   "text.multilangtts.config.management": "कॉन्फ़िगरेशन प्रबंधन",
   "text.multilangtts.config.reset_button": "डिफ़ॉल्ट पर पुनः सेट करें",
-  "gui.back": "पीछे"
+  "gui.back": "पीछे",
+  "key.multilangtts.skip_message": "वर्तमान टीटीएस संदेश छोड़ें"
 }

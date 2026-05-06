@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "ID modelu",
   "text.multilangtts.config.management": "Správa konfigurace",
   "text.multilangtts.config.reset_button": "Obnovit výchozí",
-  "gui.back": "Zadní"
+  "gui.back": "Zadní",
+  "key.multilangtts.skip_message": "Přeskočit aktuální zprávu TTS"
 }

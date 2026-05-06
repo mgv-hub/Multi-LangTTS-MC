@@ -19,7 +19,7 @@ public class OsTtsEngine {
 
 	// non-blocking queue - safe for concurrent enqueue from chat events
 	private final ConcurrentLinkedQueue<String> queue = new ConcurrentLinkedQueue<>();
-	
+
 	// single worker thread: ensures ordered processing and avoids TTS overlap
 	private final ExecutorService worker = Executors.newSingleThreadExecutor(r -> {
 		Thread t = new Thread(r, "multilangtts-worker");
@@ -37,6 +37,8 @@ public class OsTtsEngine {
 	private volatile TtsEngineProvider activeProvider;
 	// prevents multiple worker submissions while queue is being drained
 	private final AtomicBoolean processing = new AtomicBoolean(false);
+	// flag to skip current message during playback
+	private final AtomicBoolean skipCurrent = new AtomicBoolean(false);
 
 	public OsTtsEngine(TtsLogger logger, MultiLangTtsConfig config) {
 		this.logger = logger;
@@ -57,6 +59,13 @@ public class OsTtsEngine {
 		triggerProcessing();
 	}
 
+	// skip the currently playing message and continue with next in queue
+	public void skipCurrentMessage() {
+		skipCurrent.set(true);
+		audioPlayer.forceStop(); // immediately break JLayer blocking call
+		logger.debug("Skip requested for current TTS message");
+	}
+
 	// debounced trigger: only submit worker if not already running
 	private void triggerProcessing() {
 		if (processing.get()) return;
@@ -72,6 +81,8 @@ public class OsTtsEngine {
 				String text = queue.poll();
 				if (text == null) break;
 				logger.debug("Processing TTS: " + text);
+				// reset skip flag for new message - only skip the specific message user requested
+				skipCurrent.set(false);
 				executeTtsWithRetry(text);
 				// brief pause between items to avoid audio stacking
 				safeSleep(500);
@@ -90,10 +101,21 @@ public class OsTtsEngine {
 		Exception lastException = null;
 		for (int attempt = 0; attempt < MAX_RETRIES; attempt++) {
 			try {
+				// check skip before synthesis to avoid unnecessary API calls
+				if (skipCurrent.get()) {
+					logger.debug("Skipping synthesis for: " + text);
+					return;
+				}
 				rateLimiter.enforceLimit();
 				byte[] audioData = activeProvider.synthesize(text, config).join();
 				if (audioData != null && audioData.length > 0) {
-					audioPlayer.play(audioData);
+					// pass skip flag to audio player for interruptible playback
+					audioPlayer.play(audioData, skipCurrent);
+					// if skip was triggered during playback, exit without retrying
+					if (skipCurrent.get()) {
+						logger.debug("Skip confirmed after playback attempt");
+						return;
+					}
 					return;
 				}
 			} catch (Exception e) {

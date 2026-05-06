@@ -38,5 +38,6 @@
   "text.multilangtts.config.provider.elevenlabs.model_id": "Modellazonosító",
   "text.multilangtts.config.management": "Konfigurációkezelés",
   "text.multilangtts.config.reset_button": "Visszaállítás alapértékekre",
-  "gui.back": "Vissza"
+  "gui.back": "Vissza",
+  "key.multilangtts.skip_message": "Az aktuális TTS-üzenet kihagyása"
 }
