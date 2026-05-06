@@ -27,6 +27,13 @@ base {
 
 loom {
 	splitEnvironmentSourceSets()
+	runs {
+		client {
+			configName = "Minecraft Client"
+			programArg("--username")
+			programArg("mgv")
+		}
+	}
 }
 
 repositories {
