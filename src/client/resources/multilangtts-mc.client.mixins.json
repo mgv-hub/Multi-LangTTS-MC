@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "com.mgv.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ChatHudMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.5"
+}

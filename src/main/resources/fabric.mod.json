@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "multilangtts-mc",
+  "version": "${version}",
+  "name": "Multi LangTTS MC",
+  "description": "Multi-language text-to-speech for Minecraft",
+  "authors": [ "mgv" , "DFD3" ],
+  "contact": {
+    "sources": "https://github.com/mgv-hub/Multi-LangTTS-MC"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "./assets/modid/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.mgv.client.CoreModClient"],
+    "modmenu": ["com.mgv.client.integration.ModMenuIntegration"]
+  },
+  "mixins": ["multilangtts-mc.client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": ">=0.115.0",
+    "cloth-config": ">=18.0.0"
+  },
+  "custom": {
+    "modmenu": {
+      "configScreenFactory": "com.mgv.client.gui.ModConfigScreen::create"
+    }
+  }
+}

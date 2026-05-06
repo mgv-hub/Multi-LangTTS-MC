@@ -1,0 +1,104 @@
+plugins {
+	id 'fabric-loom' version '1.11-SNAPSHOT'
+	id 'maven-publish'
+}
+
+def propsFile = file('gradle.properties')
+def props = new Properties()
+props.load(propsFile.newInputStream())
+
+def modVersion = props.getProperty('mod_version', '1.0.0')
+def buildNum = (props.getProperty('build_number', '0') as int) + 1
+props.setProperty('build_number', buildNum.toString())
+
+def sortedKeys = props.keySet().sort()
+def writer = propsFile.newWriter()
+sortedKeys.each { key ->
+	writer.write("${key}=${props.getProperty(key)}\n")
+}
+writer.close()
+
+version = modVersion
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+loom {
+	splitEnvironmentSourceSets()
+}
+
+repositories {
+	mavenCentral()
+	maven { url 'https://jitpack.io' }
+	maven { url 'https://maven.fabricmc.net' }
+	maven { url 'https://maven.shedaniel.me/' }
+	maven { url 'https://maven.terraformersmc.com/releases/' }
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	modImplementation "me.shedaniel.cloth:cloth-config-fabric:20.0.149"
+	modImplementation "com.terraformersmc:modmenu:16.0.0"
+
+	implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+	include 'com.squareup.okhttp3:okhttp:4.12.0'
+	include 'com.squareup.okio:okio:3.9.0'
+	include 'com.squareup.okio:okio-jvm:3.9.0'
+	include 'org.jetbrains.kotlin:kotlin-stdlib:1.9.25'
+	include 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.25'
+	include 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.25'
+	include 'org.jetbrains.kotlin:kotlin-stdlib-common:1.9.25'
+	include 'org.jetbrains:annotations:23.0.0'
+	
+	implementation 'com.googlecode.soundlibs:jlayer:1.0.1.4'
+	include 'com.googlecode.soundlibs:jlayer:1.0.1.4'
+}
+
+processResources {
+	inputs.property "version", project.version
+	filesMatching("fabric.mod.json") {
+		expand "version": project.version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}
+
+jar {
+	archiveFileName.set("${project.archives_base_name}-v${modVersion}-build-${buildNum}.jar")
+	from("LICENSE") {
+		rename { "${it}_${project.base.archivesName.get()}" }
+	}
+}
+
+task archiveBuild(type: Copy) {
+	dependsOn jar
+	def archiveDir = file("builds/v${modVersion}")
+	archiveDir.mkdirs()
+	from jar.archiveFile
+	into archiveDir
+}
+
+jar.finalizedBy(archiveBuild)
+
+publishing {
+	publications {
+		create("mavenJava", MavenPublication) {
+			from components.java
+		}
+	}
+	repositories {
+	}
+}
