@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "कॉन्फ़िगरेशन प्रबंधन",
   "text.multilangtts.config.reset_button": "डिफ़ॉल्ट पर पुनः सेट करें",
   "gui.back": "पीछे",
-  "key.multilangtts.skip_message": "वर्तमान टीटीएस संदेश छोड़ें"
+  "key.multilangtts.skip_message": "वर्तमान टीटीएस संदेश छोड़ें",
+  "text.multilangtts.config.strip_numbers_from_names": "नामों से संख्याएँ हटाएँ",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google अनुवाद भाषा कोड (अरबी के लिए एआर, अंग्रेजी के लिए एन)"
 }

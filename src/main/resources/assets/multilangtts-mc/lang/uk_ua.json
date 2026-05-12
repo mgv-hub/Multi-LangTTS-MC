@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Управління конфігурацією",
   "text.multilangtts.config.reset_button": "Скинути до значень за замовчуванням",
   "gui.back": "Назад",
-  "key.multilangtts.skip_message": "Пропустити поточне повідомлення TTS"
+  "key.multilangtts.skip_message": "Пропустити поточне повідомлення TTS",
+  "text.multilangtts.config.strip_numbers_from_names": "Видаляйте числа з імен",
+  "text.multilangtts.config.provider.google.language.tooltip": "Код мови Google Translate (ar для арабської, en для англійської)"
 }

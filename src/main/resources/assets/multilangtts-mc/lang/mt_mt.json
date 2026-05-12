@@ -13,7 +13,7 @@
   "key.category.multilangtts.keybinds": "Multi LangTTS MC",
   "key.category.multilangtts-mc.keybinds": "Multi LangTTS MC",
   "text.multilangtts.tts.enabled": "TTS: Ippermettiet",
-  "text.multilangtts.tts.disabled": "TTS: Diżabbli",
+  "text.multilangtts.tts.disabled": "TTS: B'diżabilità",
   "text.multilangtts.config.chat_log": "Chat Logger",
   "text.multilangtts.config.chat_logging_enabled": "Ippermetti Chat Logging",
   "text.multilangtts.config.chat_log_format": "Log Format",
@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Ġestjoni tal-Konfigurazzjoni",
   "text.multilangtts.config.reset_button": "Irrisettja għal Defaults",
   "gui.back": "Lura",
-  "key.multilangtts.skip_message": "Aqbeż il-messaġġ TTS kurrenti"
+  "key.multilangtts.skip_message": "Aqbeż il-messaġġ TTS kurrenti",
+  "text.multilangtts.config.strip_numbers_from_names": "Strixxa Numri mill-Ismijiet",
+  "text.multilangtts.config.provider.google.language.tooltip": "Kodiċi tal-lingwa Google Translate (ar għall-Għarbi, en għall-Ingliż)"
 }

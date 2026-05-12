@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Usimamizi wa Usanidi",
   "text.multilangtts.config.reset_button": "Weka upya kwa Chaguomsingi",
   "gui.back": "Nyuma",
-  "key.multilangtts.skip_message": "Ruka Ujumbe wa Sasa wa TTS"
+  "key.multilangtts.skip_message": "Ruka Ujumbe wa Sasa wa TTS",
+  "text.multilangtts.config.strip_numbers_from_names": "Futa Nambari kutoka kwa Majina",
+  "text.multilangtts.config.provider.google.language.tooltip": "Msimbo wa lugha ya Google Tafsiri (ar kwa Kiarabu, en kwa Kiingereza)"
 }

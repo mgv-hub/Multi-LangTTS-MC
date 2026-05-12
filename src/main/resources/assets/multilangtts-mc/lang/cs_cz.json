@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Správa konfigurace",
   "text.multilangtts.config.reset_button": "Obnovit výchozí",
   "gui.back": "Zadní",
-  "key.multilangtts.skip_message": "Přeskočit aktuální zprávu TTS"
+  "key.multilangtts.skip_message": "Přeskočit aktuální zprávu TTS",
+  "text.multilangtts.config.strip_numbers_from_names": "Odstraňte čísla ze jmen",
+  "text.multilangtts.config.provider.google.language.tooltip": "Kód jazyka Překladače Google (ar pro arabštinu, en pro angličtinu)"
 }

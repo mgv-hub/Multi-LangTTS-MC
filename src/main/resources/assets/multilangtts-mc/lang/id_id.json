@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Manajemen Konfigurasi",
   "text.multilangtts.config.reset_button": "Atur Ulang ke Default",
   "gui.back": "Kembali",
-  "key.multilangtts.skip_message": "Lewati Pesan TTS Saat Ini"
+  "key.multilangtts.skip_message": "Lewati Pesan TTS Saat Ini",
+  "text.multilangtts.config.strip_numbers_from_names": "Hapus Nomor dari Nama",
+  "text.multilangtts.config.provider.google.language.tooltip": "Kode bahasa Google Translate (ar untuk bahasa Arab, en untuk bahasa Inggris)"
 }

@@ -21,7 +21,7 @@
   "text.multilangtts.config.export_button": "Seisiún Easpórtála",
   "text.multilangtts.config.replay_tts": "Athsheinn Teachtaireachtaí TTS",
   "text.multilangtts.config.open_viewer": "Oscail Amharcán Logchomhrá",
-  "text.multilangtts.chat_viewer.title": "Amharcóir Logchomhaid Comhrá",
+  "text.multilangtts.chat_viewer.title": "Amharcóir Logchomhrá",
   "text.multilangtts.config.test_category": "Guth Tástáil",
   "text.multilangtts.config.test_phrase": "Frása Tástála",
   "text.multilangtts.config.test_button": "Fuaim Tástáil",
@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Bainistíocht Cumraíochta",
   "text.multilangtts.config.reset_button": "Athshocraigh go Réamhshocruithe",
   "gui.back": "Ar ais",
-  "key.multilangtts.skip_message": "Léim ar Theachtaireacht TTS Reatha"
+  "key.multilangtts.skip_message": "Léim ar Theachtaireacht TTS Reatha",
+  "text.multilangtts.config.strip_numbers_from_names": "Uimhreacha Stiall as Ainmneacha",
+  "text.multilangtts.config.provider.google.language.tooltip": "Cód teanga Google Translate (ar don Araibis, ga don Bhéarla)"
 }

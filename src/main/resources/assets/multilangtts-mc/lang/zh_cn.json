@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "配置管理",
   "text.multilangtts.config.reset_button": "重置为默认值",
   "gui.back": "后退",
-  "key.multilangtts.skip_message": "跳过当前 TTS 消息"
+  "key.multilangtts.skip_message": "跳过当前 TTS 消息",
+  "text.multilangtts.config.strip_numbers_from_names": "从名字中去掉数字",
+  "text.multilangtts.config.provider.google.language.tooltip": "谷歌翻译语言代码（ar 为阿拉伯语，en 为英语）"
 }

@@ -19,7 +19,7 @@
   "text.multilangtts.config.chat_log_format": "Log formaat",
   "text.multilangtts.config.export_path": "Voer lêernaam uit",
   "text.multilangtts.config.export_button": "Uitvoersessie",
-  "text.multilangtts.config.replay_tts": "Herhaal TTS-boodskappe",
+  "text.multilangtts.config.replay_tts": "Speel TTS-boodskappe weer",
   "text.multilangtts.config.open_viewer": "Maak Chat Log Viewer oop",
   "text.multilangtts.chat_viewer.title": "Chat Log Viewer",
   "text.multilangtts.config.test_category": "Toets Stem",
@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Konfigurasiebestuur",
   "text.multilangtts.config.reset_button": "Stel terug na verstek",
   "gui.back": "Terug",
-  "key.multilangtts.skip_message": "Slaan huidige TTS-boodskap oor"
+  "key.multilangtts.skip_message": "Slaan huidige TTS-boodskap oor",
+  "text.multilangtts.config.strip_numbers_from_names": "Stroop Getalle van Name",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google Translate-taalkode (ar vir Arabies, en vir Engels)"
 }

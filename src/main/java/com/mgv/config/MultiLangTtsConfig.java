@@ -1,5 +1,4 @@
 package com.mgv.config;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.annotations.SerializedName;
@@ -23,6 +22,7 @@ public class MultiLangTtsConfig {
     @SerializedName("spam_threshold_ms") public long spamThresholdMs = 3000;
     @SerializedName("cache_enabled") public boolean cacheEnabled = true;
     @SerializedName("read_player_names") public boolean readPlayerNames = true;
+    @SerializedName("strip_numbers_from_names") public boolean stripNumbersFromNames = false;
     @SerializedName("chat_logging_enabled") public boolean chatLoggingEnabled = false;
     @SerializedName("language") public String language = "en_us";
     @SerializedName("providers") public ProviderSettings providers = new ProviderSettings();

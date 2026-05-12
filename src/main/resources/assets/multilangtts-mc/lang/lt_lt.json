@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Konfigūracijos valdymas",
   "text.multilangtts.config.reset_button": "Atstatyti į numatytuosius nustatymus",
   "gui.back": "Atgal",
-  "key.multilangtts.skip_message": "Praleisti dabartinį TTS pranešimą"
+  "key.multilangtts.skip_message": "Praleisti dabartinį TTS pranešimą",
+  "text.multilangtts.config.strip_numbers_from_names": "Nuimkite numerius iš vardų",
+  "text.multilangtts.config.provider.google.language.tooltip": "„Google“ vertėjo kalbos kodas (ar arabų kalba, en anglų kalba)"
 }

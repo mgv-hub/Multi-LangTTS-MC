@@ -18,11 +18,11 @@
   "text.multilangtts.config.chat_logging_enabled": "Luba vestluse logimine",
   "text.multilangtts.config.chat_log_format": "Logi vorming",
   "text.multilangtts.config.export_path": "Ekspordi failinimi",
-  "text.multilangtts.config.export_button": "Ekspordi seanss",
+  "text.multilangtts.config.export_button": "Ekspordiseanss",
   "text.multilangtts.config.replay_tts": "Taasesitage TTS-sõnumid",
   "text.multilangtts.config.open_viewer": "Avage vestluslogi vaataja",
   "text.multilangtts.chat_viewer.title": "Vestluslogi vaataja",
-  "text.multilangtts.config.test_category": "Testi häält",
+  "text.multilangtts.config.test_category": "Testige häält",
   "text.multilangtts.config.test_phrase": "Testlause",
   "text.multilangtts.config.test_button": "Testi heli",
   "text.multilangtts.config.provider.google": "Google'i tõlge",
@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Konfiguratsioonihaldus",
   "text.multilangtts.config.reset_button": "Lähtestage vaikeseadetele",
   "gui.back": "Tagasi",
-  "key.multilangtts.skip_message": "Jäta praegune TTS-sõnum vahele"
+  "key.multilangtts.skip_message": "Jäta praegune TTS-sõnum vahele",
+  "text.multilangtts.config.strip_numbers_from_names": "Eemaldage nimedest numbrid",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google'i tõlke keelekood (ar araabia jaoks, en inglise keeles)"
 }

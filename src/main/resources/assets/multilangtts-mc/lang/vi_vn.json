@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Quản lý cấu hình",
   "text.multilangtts.config.reset_button": "Đặt lại về mặc định",
   "gui.back": "Mặt sau",
-  "key.multilangtts.skip_message": "Bỏ qua tin nhắn TTS hiện tại"
+  "key.multilangtts.skip_message": "Bỏ qua tin nhắn TTS hiện tại",
+  "text.multilangtts.config.strip_numbers_from_names": "Tách số khỏi tên",
+  "text.multilangtts.config.provider.google.language.tooltip": "Mã ngôn ngữ Google Translate (ar cho tiếng Ả Rập, en cho tiếng Anh)"
 }

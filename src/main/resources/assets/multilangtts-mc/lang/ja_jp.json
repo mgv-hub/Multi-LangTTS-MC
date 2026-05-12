@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "構成管理",
   "text.multilangtts.config.reset_button": "デフォルトにリセット",
   "gui.back": "戻る",
-  "key.multilangtts.skip_message": "現在の TTS メッセージをスキップする"
+  "key.multilangtts.skip_message": "現在の TTS メッセージをスキップする",
+  "text.multilangtts.config.strip_numbers_from_names": "名前から数字を取り除く",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google 翻訳の言語コード (アラビア語の場合は ar、英語の場合は en)"
 }

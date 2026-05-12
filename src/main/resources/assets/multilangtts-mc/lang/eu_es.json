@@ -17,7 +17,7 @@
   "text.multilangtts.config.chat_log": "Chat Logger",
   "text.multilangtts.config.chat_logging_enabled": "Gaitu txat-erregistroa",
   "text.multilangtts.config.chat_log_format": "Erregistro formatua",
-  "text.multilangtts.config.export_path": "Esportatu fitxategiaren izena",
+  "text.multilangtts.config.export_path": "Esportatu fitxategi-izena",
   "text.multilangtts.config.export_button": "Esportatu saioa",
   "text.multilangtts.config.replay_tts": "Erreproduzitu TTS mezuak",
   "text.multilangtts.config.open_viewer": "Ireki Chat Log Viewer",
@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Konfigurazioaren kudeaketa",
   "text.multilangtts.config.reset_button": "Berrezarri lehenespenetara",
   "gui.back": "Itzuli",
-  "key.multilangtts.skip_message": "Saltatu uneko TTS mezua"
+  "key.multilangtts.skip_message": "Saltatu uneko TTS mezua",
+  "text.multilangtts.config.strip_numbers_from_names": "Kendu zenbakiak izenetatik",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google Translate hizkuntza-kodea (ar arabierarako, en ingeleserako)"
 }

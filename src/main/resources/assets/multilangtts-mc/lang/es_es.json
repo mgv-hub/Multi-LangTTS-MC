@@ -26,7 +26,7 @@
   "text.multilangtts.config.test_phrase": "Frase de prueba",
   "text.multilangtts.config.test_button": "Sonido de prueba",
   "text.multilangtts.config.provider.google": "Google Translate",
-  "text.multilangtts.config.provider.elevenlabs": "ElevenLabs",
+  "text.multilangtts.config.provider.elevenlabs": "oncelabs",
   "text.multilangtts.config.provider.enabled": "Habilitar proveedor",
   "text.multilangtts.config.provider.google.language": "Código de idioma",
   "text.multilangtts.config.provider.elevenlabs.api_key": "Clave API",
@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Gestión de configuración",
   "text.multilangtts.config.reset_button": "Restablecer los valores predeterminados",
   "gui.back": "Atrás",
-  "key.multilangtts.skip_message": "Saltar mensaje TTS actual"
+  "key.multilangtts.skip_message": "Saltar mensaje TTS actual",
+  "text.multilangtts.config.strip_numbers_from_names": "Quitar números de nombres",
+  "text.multilangtts.config.provider.google.language.tooltip": "Código de idioma del Traductor de Google (ar para árabe, en para inglés)"
 }

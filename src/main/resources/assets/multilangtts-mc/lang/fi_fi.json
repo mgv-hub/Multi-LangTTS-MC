@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Kokoonpanon hallinta",
   "text.multilangtts.config.reset_button": "Palauta oletusarvoihin",
   "gui.back": "Takaisin",
-  "key.multilangtts.skip_message": "Ohita nykyinen TTS-viesti"
+  "key.multilangtts.skip_message": "Ohita nykyinen TTS-viesti",
+  "text.multilangtts.config.strip_numbers_from_names": "Poista numerot nimistä",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google Kääntäjän kielikoodi (ar arabiaksi, en englanniksi)"
 }

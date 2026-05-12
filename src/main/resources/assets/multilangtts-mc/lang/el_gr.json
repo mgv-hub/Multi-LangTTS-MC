@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Διαχείριση διαμόρφωσης",
   "text.multilangtts.config.reset_button": "Επαναφορά στις προεπιλογές",
   "gui.back": "Πίσω",
-  "key.multilangtts.skip_message": "Παράλειψη τρέχοντος μηνύματος TTS"
+  "key.multilangtts.skip_message": "Παράλειψη τρέχοντος μηνύματος TTS",
+  "text.multilangtts.config.strip_numbers_from_names": "Αφαιρέστε τους αριθμούς από τα ονόματα",
+  "text.multilangtts.config.provider.google.language.tooltip": "Κωδικός γλώσσας του Google Translate (ar για τα αραβικά, en για τα αγγλικά)"
 }

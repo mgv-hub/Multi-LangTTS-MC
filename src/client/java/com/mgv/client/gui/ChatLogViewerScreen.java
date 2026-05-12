@@ -4,7 +4,7 @@ import com.mgv.client.chat.ChatLogger;
 import com.mgv.client.CoreModClient;
 import com.mgv.client.tts.util.ArabicTextUtil;
 
-
+import net.minecraft.client.gui.Click;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.widget.ButtonWidget;
@@ -22,6 +22,7 @@ public class ChatLogViewerScreen extends Screen {
     private List<ChatLogger.ChatEntry> entries;
     private float scrollOffset;
     private int contentHeight;
+    private boolean isDraggingScrollbar = false;
     // layout constants - tuned for readability on 1080p+ displays
     private final int itemHeight = 26;
     private final int listWidth = 360;
@@ -88,13 +89,7 @@ public class ChatLogViewerScreen extends Screen {
         }
 
     }
-    
-    /*
-     * considered using Minecraft's built-in ElementListWidget for scrolling
-     * shelved: custom scroll gives finer control over item culling and bidi handling
-     * revisit if we add search/filter features that benefit from ListWidget's API
-     */
-    
+
     @Override
     public boolean mouseScrolled(double mouseX, double mouseY, double horizontalAmount, double verticalAmount) {
         if (contentHeight > height - 70) {
@@ -107,6 +102,59 @@ public class ChatLogViewerScreen extends Screen {
             return true;
         }
         return false;
+    }
+
+    // detect initial click on the scrollbar thumb to start drag operation
+    @Override
+    public boolean mouseClicked(Click click, boolean doubled) {
+        double mouseX = click.x();
+        double mouseY = click.y();
+        int button = click.button();
+
+        if (contentHeight <= height - 70) return super.mouseClicked(click, doubled);
+
+        int listLeft = (width - listWidth) / 2;
+        int scrollBarX = listLeft + listWidth + 10;
+        int trackHeight = height - 70;
+        int thumbHeight = Math.max(20, (trackHeight * trackHeight) / contentHeight);
+        int thumbY = 30 + (int) ((scrollOffset / contentHeight) * trackHeight);
+
+        if (mouseX >= scrollBarX && mouseX <= scrollBarX + 4 && mouseY >= thumbY && mouseY <= thumbY + thumbHeight) {
+            isDraggingScrollbar = true;
+            return true;
+        }
+        return super.mouseClicked(click, doubled);
+    }
+
+    // map vertical mouse movement to scroll offset while dragging
+    @Override
+    public boolean mouseDragged(Click click, double offsetX, double offsetY) {
+        double mouseX = click.x();
+        double mouseY = click.y();
+
+        if (isDraggingScrollbar && contentHeight > height - 70) {
+            int trackHeight = height - 70;
+            int listLeft = (width - listWidth) / 2;
+            int scrollBarX = listLeft + listWidth + 10;
+
+            // only process if mouse is near the scrollbar track
+            if (mouseX >= scrollBarX - 5 && mouseX <= scrollBarX + 9) {
+                float ratio = (float) (mouseY - 30) / trackHeight;
+                scrollOffset = MathHelper.clamp(ratio * (contentHeight - trackHeight), 0, contentHeight - trackHeight);
+                rebuildWidgets();
+                return true;
+            }
+        }
+        return super.mouseDragged(click, offsetX, offsetY);
+    }
+
+    // release drag state when left mouse button is lifted
+    @Override
+    public boolean mouseReleased(Click click) {
+        if (click.button() == 0) {
+            isDraggingScrollbar = false;
+        }
+        return super.mouseReleased(click);
     }
     
     @Override

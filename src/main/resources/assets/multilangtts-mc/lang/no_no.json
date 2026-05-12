@@ -37,7 +37,9 @@
   "text.multilangtts.config.provider.elevenlabs.speed": "Fart",
   "text.multilangtts.config.provider.elevenlabs.model_id": "Modell-ID",
   "text.multilangtts.config.management": "Konfigurasjonsadministrasjon",
-  "text.multilangtts.config.reset_button": "Tilbakestill til standard",
+  "text.multilangtts.config.reset_button": "Tilbakestill til standarder",
   "gui.back": "Tilbake",
-  "key.multilangtts.skip_message": "Hopp over gjeldende TTS-melding"
+  "key.multilangtts.skip_message": "Hopp over gjeldende TTS-melding",
+  "text.multilangtts.config.strip_numbers_from_names": "Fjern tall fra navn",
+  "text.multilangtts.config.provider.google.language.tooltip": "Språkkode for Google Translate (ar for arabisk, en for engelsk)"
 }

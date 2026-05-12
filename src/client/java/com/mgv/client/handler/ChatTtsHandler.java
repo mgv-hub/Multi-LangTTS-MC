@@ -87,6 +87,16 @@ public class ChatTtsHandler {
         if (sender == null) return message;
         
         String playerName = sender.name() != null ? sender.name() : "unknown";
+
+        // strip numeric characters from gamertags to prevent awkward TTS digit reading
+        if (config.stripNumbersFromNames) {
+            String stripped = playerName.replaceAll("\\d+", "");
+            // fallback to original if stripping leaves the name empty
+            if (!stripped.isEmpty()) {
+                playerName = stripped;
+            }
+        }
+
         if (!config.readPlayerNames) return message;
         
         // strip redundant name prefixes that MC chat sometimes adds

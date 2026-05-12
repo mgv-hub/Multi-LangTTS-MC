@@ -17,7 +17,7 @@
   "text.multilangtts.config.chat_log": "เครื่องบันทึกแชท",
   "text.multilangtts.config.chat_logging_enabled": "เปิดใช้งานการบันทึกการแชท",
   "text.multilangtts.config.chat_log_format": "รูปแบบบันทึก",
-  "text.multilangtts.config.export_path": "ส่งออกชื่อไฟล์",
+  "text.multilangtts.config.export_path": "ชื่อไฟล์ส่งออก",
   "text.multilangtts.config.export_button": "ส่งออกเซสชัน",
   "text.multilangtts.config.replay_tts": "เล่นซ้ำข้อความ TTS",
   "text.multilangtts.config.open_viewer": "เปิดโปรแกรมดูบันทึกการแชท",
@@ -33,11 +33,13 @@
   "text.multilangtts.config.provider.elevenlabs.voice_id": "รหัสเสียง",
   "text.multilangtts.config.provider.elevenlabs.stability": "ความมั่นคง",
   "text.multilangtts.config.provider.elevenlabs.similarity_boost": "เพิ่มความคล้ายคลึงกัน",
-  "text.multilangtts.config.provider.elevenlabs.style_exaggeration": "สไตล์การพูดเกินจริง",
+  "text.multilangtts.config.provider.elevenlabs.style_exaggeration": "การพูดเกินจริงสไตล์",
   "text.multilangtts.config.provider.elevenlabs.speed": "ความเร็ว",
   "text.multilangtts.config.provider.elevenlabs.model_id": "รหัสรุ่น",
   "text.multilangtts.config.management": "การจัดการการกำหนดค่า",
   "text.multilangtts.config.reset_button": "รีเซ็ตเป็นค่าเริ่มต้น",
   "gui.back": "กลับ",
-  "key.multilangtts.skip_message": "ข้ามข้อความ TTS ปัจจุบัน"
+  "key.multilangtts.skip_message": "ข้ามข้อความ TTS ปัจจุบัน",
+  "text.multilangtts.config.strip_numbers_from_names": "ดึงตัวเลขออกจากชื่อ",
+  "text.multilangtts.config.provider.google.language.tooltip": "รหัสภาษาของ Google แปลภาษา (ar สำหรับภาษาอาหรับ en สำหรับภาษาอังกฤษ)"
 }

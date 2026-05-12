@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Gestione della configurazione",
   "text.multilangtts.config.reset_button": "Ripristina le impostazioni predefinite",
   "gui.back": "Indietro",
-  "key.multilangtts.skip_message": "Salta il messaggio TTS corrente"
+  "key.multilangtts.skip_message": "Salta il messaggio TTS corrente",
+  "text.multilangtts.config.strip_numbers_from_names": "Elimina i numeri dai nomi",
+  "text.multilangtts.config.provider.google.language.tooltip": "Codice della lingua di Google Translate (ar per l'arabo, en per l'inglese)"
 }

@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Konfigürasyon Yönetimi",
   "text.multilangtts.config.reset_button": "Varsayılanlara Sıfırla",
   "gui.back": "Geri",
-  "key.multilangtts.skip_message": "Mevcut TTS Mesajını Atla"
+  "key.multilangtts.skip_message": "Mevcut TTS Mesajını Atla",
+  "text.multilangtts.config.strip_numbers_from_names": "İsimlerden Numaraları Çıkarma",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google Çeviri dil kodu (Arapça için ar, İngilizce için en)"
 }

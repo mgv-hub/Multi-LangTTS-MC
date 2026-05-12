@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Konfigurācijas pārvaldība",
   "text.multilangtts.config.reset_button": "Atiestatīt uz noklusējuma iestatījumiem",
   "gui.back": "Atpakaļ",
-  "key.multilangtts.skip_message": "Izlaist pašreizējo TTS ziņojumu"
+  "key.multilangtts.skip_message": "Izlaist pašreizējo TTS ziņojumu",
+  "text.multilangtts.config.strip_numbers_from_names": "Noņemiet numurus no nosaukumiem",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google tulkotāja valodas kods (ar arābu valodā, en angļu valodā)"
 }

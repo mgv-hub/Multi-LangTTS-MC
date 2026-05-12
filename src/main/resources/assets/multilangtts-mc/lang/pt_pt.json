@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Gerenciamento de configuração",
   "text.multilangtts.config.reset_button": "Redefinir para os padrões",
   "gui.back": "Voltar",
-  "key.multilangtts.skip_message": "Ignorar mensagem TTS atual"
+  "key.multilangtts.skip_message": "Ignorar mensagem TTS atual",
+  "text.multilangtts.config.strip_numbers_from_names": "Tirar números de nomes",
+  "text.multilangtts.config.provider.google.language.tooltip": "Código de idioma do Google Tradutor (ar para árabe, en para inglês)"
 }

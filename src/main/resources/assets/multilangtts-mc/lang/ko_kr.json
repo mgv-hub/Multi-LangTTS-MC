@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "구성 관리",
   "text.multilangtts.config.reset_button": "기본값으로 재설정",
   "gui.back": "뒤쪽에",
-  "key.multilangtts.skip_message": "현재 TTS 메시지 건너뛰기"
+  "key.multilangtts.skip_message": "현재 TTS 메시지 건너뛰기",
+  "text.multilangtts.config.strip_numbers_from_names": "이름에서 번호 제거",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google 번역 언어 코드(아랍어는 ar, 영어는 en)"
 }

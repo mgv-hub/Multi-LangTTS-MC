@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Rheolaeth Ffurfweddu",
   "text.multilangtts.config.reset_button": "Ailosod i'r Rhagosodiadau",
   "gui.back": "Yn ol",
-  "key.multilangtts.skip_message": "Hepgor Neges TTS Cyfredol"
+  "key.multilangtts.skip_message": "Hepgor Neges TTS Cyfredol",
+  "text.multilangtts.config.strip_numbers_from_names": "Rhifau Stribed o Enwau",
+  "text.multilangtts.config.provider.google.language.tooltip": "Cod iaith Google Translate (ar ar gyfer Arabeg, en ar gyfer Saesneg)"
 }

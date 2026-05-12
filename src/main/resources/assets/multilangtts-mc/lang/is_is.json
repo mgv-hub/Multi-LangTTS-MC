@@ -6,7 +6,7 @@
   "text.multilangtts.config.read_server_messages": "Lestu miðlara/útsendingarskilaboð",
   "text.multilangtts.config.ignore_spam": "Hunsa ruslpóst",
   "text.multilangtts.config.cache_enabled": "Virkja skyndiminni",
-  "text.multilangtts.config.read_names": "Lestu nöfn leikmanna",
+  "text.multilangtts.config.read_names": "Lestu leikmannanöfn",
   "key.multilangtts.toggle": "Skiptu um TTS",
   "key.multilangtts.open_chat_viewer": "Opnaðu Chat Log Viewer",
   "category.multilangtts.keybinds": "Multi LangTTS MC",
@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Stillingarstjórnun",
   "text.multilangtts.config.reset_button": "Endurstilla í sjálfgefnar stillingar",
   "gui.back": "Til baka",
-  "key.multilangtts.skip_message": "Slepptu núverandi TTS skilaboðum"
+  "key.multilangtts.skip_message": "Slepptu núverandi TTS skilaboðum",
+  "text.multilangtts.config.strip_numbers_from_names": "Fjarlægðu tölur úr nöfnum",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google Translate tungumálakóði (ar fyrir arabísku, en fyrir ensku)"
 }

@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Správa konfigurácie",
   "text.multilangtts.config.reset_button": "Obnoviť predvolené nastavenia",
   "gui.back": "Späť",
-  "key.multilangtts.skip_message": "Preskočiť aktuálnu správu TTS"
+  "key.multilangtts.skip_message": "Preskočiť aktuálnu správu TTS",
+  "text.multilangtts.config.strip_numbers_from_names": "Odstráňte čísla z mien",
+  "text.multilangtts.config.provider.google.language.tooltip": "Kód jazyka prekladača Google (ar pre arabčinu, en pre angličtinu)"
 }

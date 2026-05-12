@@ -32,12 +32,14 @@
   "text.multilangtts.config.provider.elevenlabs.api_key": "API клуч",
   "text.multilangtts.config.provider.elevenlabs.voice_id": "Гласовен проект",
   "text.multilangtts.config.provider.elevenlabs.stability": "Стабилност",
-  "text.multilangtts.config.provider.elevenlabs.similarity_boost": "Зајакнување на сличност",
+  "text.multilangtts.config.provider.elevenlabs.similarity_boost": "Зајакнување на сличноста",
   "text.multilangtts.config.provider.elevenlabs.style_exaggeration": "Претерување во стилот",
   "text.multilangtts.config.provider.elevenlabs.speed": "Брзина",
   "text.multilangtts.config.provider.elevenlabs.model_id": "ИД на моделот",
   "text.multilangtts.config.management": "Управување со конфигурација",
   "text.multilangtts.config.reset_button": "Ресетирање на стандардни",
   "gui.back": "Назад",
-  "key.multilangtts.skip_message": "Прескокнете ја тековната TTS порака"
+  "key.multilangtts.skip_message": "Прескокнете ја тековната TTS порака",
+  "text.multilangtts.config.strip_numbers_from_names": "Отстранете ги броевите од имињата",
+  "text.multilangtts.config.provider.google.language.tooltip": "Јазичен код на Google Translate (ar за арапски, en за англиски)"
 }

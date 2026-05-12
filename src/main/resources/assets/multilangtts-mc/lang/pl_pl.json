@@ -4,7 +4,7 @@
   "text.multilangtts.config.language": "Język",
   "text.multilangtts.config.enabled": "Włącz TTS",
   "text.multilangtts.config.read_server_messages": "Czytaj wiadomości serwera/rozgłaszania",
-  "text.multilangtts.config.ignore_spam": "Ignoruj ​​spam",
+  "text.multilangtts.config.ignore_spam": "Ignoruj ​​​​spam",
   "text.multilangtts.config.cache_enabled": "Włącz pamięć podręczną",
   "text.multilangtts.config.read_names": "Przeczytaj nazwy graczy",
   "key.multilangtts.toggle": "Przełącz TTS",
@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Zarządzanie konfiguracją",
   "text.multilangtts.config.reset_button": "Przywróć ustawienia domyślne",
   "gui.back": "Z powrotem",
-  "key.multilangtts.skip_message": "Pomiń bieżącą wiadomość TTS"
+  "key.multilangtts.skip_message": "Pomiń bieżącą wiadomość TTS",
+  "text.multilangtts.config.strip_numbers_from_names": "Usuń liczby z imion",
+  "text.multilangtts.config.provider.google.language.tooltip": "Kod języka Tłumacza Google (ar dla języka arabskiego, en dla języka angielskiego)"
 }

@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Configuratiebeheer",
   "text.multilangtts.config.reset_button": "Terugzetten naar standaardwaarden",
   "gui.back": "Rug",
-  "key.multilangtts.skip_message": "Huidig ​​TTS-bericht overslaan"
+  "key.multilangtts.skip_message": "Huidig ​​TTS-bericht overslaan",
+  "text.multilangtts.config.strip_numbers_from_names": "Strip nummers uit namen",
+  "text.multilangtts.config.provider.google.language.tooltip": "Taalcode van Google Translate (ar voor Arabisch, en voor Engels)"
 }

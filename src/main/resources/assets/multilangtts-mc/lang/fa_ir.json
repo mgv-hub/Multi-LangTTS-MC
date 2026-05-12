@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "مدیریت پیکربندی",
   "text.multilangtts.config.reset_button": "به حالت پیش فرض بازنشانی کنید",
   "gui.back": "برگشت",
-  "key.multilangtts.skip_message": "رد شدن از پیام فعلی TTS"
+  "key.multilangtts.skip_message": "رد شدن از پیام فعلی TTS",
+  "text.multilangtts.config.strip_numbers_from_names": "اعداد را از نامها حذف کنید",
+  "text.multilangtts.config.provider.google.language.tooltip": "کد زبان Google Translate (ar برای عربی، en برای انگلیسی)"
 }

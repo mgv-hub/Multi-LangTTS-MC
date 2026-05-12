@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Upravljanje konfiguracije",
   "text.multilangtts.config.reset_button": "Ponastavi na privzete nastavitve",
   "gui.back": "Nazaj",
-  "key.multilangtts.skip_message": "Preskoči trenutno sporočilo TTS"
+  "key.multilangtts.skip_message": "Preskoči trenutno sporočilo TTS",
+  "text.multilangtts.config.strip_numbers_from_names": "Odstranjevanje številk iz imen",
+  "text.multilangtts.config.provider.google.language.tooltip": "Koda jezika Google Translate (ar za arabščino, en za angleščino)"
 }

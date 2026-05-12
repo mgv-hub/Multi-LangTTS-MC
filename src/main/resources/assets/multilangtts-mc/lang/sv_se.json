@@ -37,7 +37,9 @@
   "text.multilangtts.config.provider.elevenlabs.speed": "Hastighet",
   "text.multilangtts.config.provider.elevenlabs.model_id": "Modell ID",
   "text.multilangtts.config.management": "Konfigurationshantering",
-  "text.multilangtts.config.reset_button": "Återställ till standardinställningar",
+  "text.multilangtts.config.reset_button": "Återställ till standardvärden",
   "gui.back": "Tillbaka",
-  "key.multilangtts.skip_message": "Hoppa över aktuellt TTS-meddelande"
+  "key.multilangtts.skip_message": "Hoppa över aktuellt TTS-meddelande",
+  "text.multilangtts.config.strip_numbers_from_names": "Ta bort nummer från namn",
+  "text.multilangtts.config.provider.google.language.tooltip": "Språkkod för Google Translate (ar för arabiska, sv för engelska)"
 }

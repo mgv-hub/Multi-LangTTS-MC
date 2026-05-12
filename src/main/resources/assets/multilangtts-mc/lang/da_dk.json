@@ -19,7 +19,7 @@
   "text.multilangtts.config.chat_log_format": "Logformat",
   "text.multilangtts.config.export_path": "Eksporter filnavn",
   "text.multilangtts.config.export_button": "Eksportsession",
-  "text.multilangtts.config.replay_tts": "Gentag TTS-beskeder",
+  "text.multilangtts.config.replay_tts": "Afspil TTS-beskeder igen",
   "text.multilangtts.config.open_viewer": "Åbn Chat Log Viewer",
   "text.multilangtts.chat_viewer.title": "Chat Log Viewer",
   "text.multilangtts.config.test_category": "Test stemme",
@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Konfigurationsstyring",
   "text.multilangtts.config.reset_button": "Nulstil til standarder",
   "gui.back": "Tilbage",
-  "key.multilangtts.skip_message": "Spring over aktuel TTS-meddelelse"
+  "key.multilangtts.skip_message": "Spring over aktuel TTS-meddelelse",
+  "text.multilangtts.config.strip_numbers_from_names": "Fjern numre fra navne",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google Translate sprogkode (ar for arabisk, en for engelsk)"
 }

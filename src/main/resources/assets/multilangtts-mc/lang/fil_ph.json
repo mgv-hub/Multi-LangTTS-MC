@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Pamamahala ng Configuration",
   "text.multilangtts.config.reset_button": "I-reset sa Mga Default",
   "gui.back": "Bumalik",
-  "key.multilangtts.skip_message": "Laktawan ang Kasalukuyang TTS Message"
+  "key.multilangtts.skip_message": "Laktawan ang Kasalukuyang TTS Message",
+  "text.multilangtts.config.strip_numbers_from_names": "I-strip ang mga Numero mula sa Mga Pangalan",
+  "text.multilangtts.config.provider.google.language.tooltip": "Code ng wika ng Google Translate (ar para sa Arabic, en para sa English)"
 }

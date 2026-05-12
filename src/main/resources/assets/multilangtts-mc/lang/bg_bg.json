@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Управление на конфигурацията",
   "text.multilangtts.config.reset_button": "Възстановяване на настройките по подразбиране",
   "gui.back": "Назад",
-  "key.multilangtts.skip_message": "Пропуснете текущото TTS съобщение"
+  "key.multilangtts.skip_message": "Пропуснете текущото TTS съобщение",
+  "text.multilangtts.config.strip_numbers_from_names": "Отстранете числата от имената",
+  "text.multilangtts.config.provider.google.language.tooltip": "Езиков код на Google Translate (ar за арабски, en за английски)"
 }

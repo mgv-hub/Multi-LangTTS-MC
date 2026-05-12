@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "إدارة التكوين",
   "text.multilangtts.config.reset_button": "إعادة التعيين إلى الإعدادات الافتراضية",
   "gui.back": "خلف",
-  "key.multilangtts.skip_message": "تخطي رسالة TTS الحالية"
+  "key.multilangtts.skip_message": "تخطي رسالة TTS الحالية",
+  "text.multilangtts.config.strip_numbers_from_names": "تجريد الأرقام من الأسماء",
+  "text.multilangtts.config.provider.google.language.tooltip": "كود لغة ترجمة جوجل (ar للغة العربية، en للغة الإنجليزية)"
 }

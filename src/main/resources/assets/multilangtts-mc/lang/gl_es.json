@@ -1,5 +1,5 @@
 {
-  "text.multilangtts.config.title": "Configuración multi LangTTS MC",
+  "text.multilangtts.config.title": "Configuración Multi LangTTS MC",
   "text.multilangtts.config.general": "Configuración xeral",
   "text.multilangtts.config.language": "Linguaxe",
   "text.multilangtts.config.enabled": "Activar TTS",
@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Xestión da configuración",
   "text.multilangtts.config.reset_button": "Restablecer os valores predeterminados",
   "gui.back": "De volta",
-  "key.multilangtts.skip_message": "Omitir a mensaxe TTS actual"
+  "key.multilangtts.skip_message": "Omitir a mensaxe TTS actual",
+  "text.multilangtts.config.strip_numbers_from_names": "Elimina os números dos nomes",
+  "text.multilangtts.config.provider.google.language.tooltip": "Código de idioma de Google Translate (ar para árabe, en para inglés)"
 }

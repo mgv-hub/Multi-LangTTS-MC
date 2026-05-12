@@ -39,5 +39,7 @@
   "text.multilangtts.config.management": "Configuratioun Management",
   "text.multilangtts.config.reset_button": "Zerécksetzen op Default",
   "gui.back": "Zréck",
-  "key.multilangtts.skip_message": "Iwwersprangen aktuellen TTS Message"
+  "key.multilangtts.skip_message": "Iwwersprangen aktuellen TTS Message",
+  "text.multilangtts.config.strip_numbers_from_names": "Sträif Zuelen aus Nimm",
+  "text.multilangtts.config.provider.google.language.tooltip": "Google Translate Sproochecode (ar fir Arabesch, en fir Englesch)"
 }

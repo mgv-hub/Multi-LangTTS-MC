@@ -60,6 +60,12 @@ public class ModConfigScreen {
                 .setDefaultValue(true)
                 .setSaveConsumer(newValue -> config.readPlayerNames = newValue)
                 .build());
+        // Strips numeric characters from speaker labels to improve TTS pronunciation of gamertags
+        general.addEntry(builder.entryBuilder()
+                .startBooleanToggle(Text.translatable("text.multilangtts.config.strip_numbers_from_names"), config.stripNumbersFromNames)
+                .setDefaultValue(false)
+                .setSaveConsumer(newValue -> config.stripNumbersFromNames = newValue)
+                .build());
 
         // Google Translate Provider
         ConfigCategory googleProvider = builder.getOrCreateCategory(Text.translatable("text.multilangtts.config.provider.google"));
@@ -159,6 +165,7 @@ public class ModConfigScreen {
         config.spamThresholdMs = 3000;
         config.cacheEnabled = true;
         config.readPlayerNames = true;
+        config.stripNumbersFromNames = false;
         config.chatLoggingEnabled = false;
         config.language = "en_us";
         config.providers.google.enabled = true;
